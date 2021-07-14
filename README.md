@@ -8,7 +8,13 @@ The Storage is a tool made in python 3 to scrappe different types of data from t
 2. >cd The-Storage
 3. >python3 -m pip install -r requirements.txt
 
-### Windows|Mac
+### Windows | Mac
 1. Download the zip file
 2. Uncompress the zip file and enter at the resulted directory
 3. >python3 -m pip install -r requirements.txt
+
+
+## Configuration
+For getting the telegram api id and the telegram api hash you should follow [this guide](https://core.telegram.org/api/obtaining_api_id).
+
+In the config.json file you have several options (all are disabled by default):
