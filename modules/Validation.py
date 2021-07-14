@@ -3,7 +3,7 @@ import urllib.request
 
 class ValidateText:
     def __init__(self, url, targets):
-        shorters = ['bit.ly', 'rb.gy', 'tinyurl.com', 'rotf.lol', 'tiny.one', 'cutt.ly', 'exe.io', 'shorturl.at', 'shorturl.gg', 'urlshorter.org', 'onx.la', 't.co', 'ow.ly', 'gestyy.com', 'bit.do']
+        shorters = ['bit.ly/', 'rb.gy/', 'tinyurl.com/', 'rotf.lol/', 'tiny.one/', 'cutt.ly/', 'exe.io/', 'shorturl.at/', 'shorturl.gg/', 'urlshorter.org/', 'onx.la/', 't.co/', 'ow.ly/', 'gestyy.com/', 'bit.do/', 'mynewsmedia.co/']
         #Udemy Courses With A Discount
         if(bool(url.find('https://www.udemy.com/course/') != -1 and url.find('couponCode=') != -1) and targets['udemy-discount-courses']):
             self.result = 'Discount_Udemy'
@@ -64,7 +64,7 @@ class ValidateText:
         #Url Shorters
         if(targets['url-shorters']):
             for i in shorters:
-                if(url.find(i) != -1 and url.find('http') != -1 and url.find('://') != -1):
+                if(url.find(i) != -1 and bool(url.fin('http://') != -1 or url.find('https://') != -1)):
                     self.result = 'Shorter'
                     return
         #Custom Text
