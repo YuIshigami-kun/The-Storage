@@ -3,35 +3,35 @@
     "tg-api-hash" : "x",
     "version" : "0.1.0",
     "targets" : {
-        "credit-cards" : true,
+        "credit-cards" : false,
         "custom-text" : {
             "enabled" : false,
-            "match" : "Hola"
+            "match" : "Hi!"
         },
         "proxies" : false,
         "open-bullet-configs" : false,
         "bins" : false,
-        "mega-links" : true,
-        "udemy-discount-courses" : true,
+        "mega-links" : false,
+        "udemy-discount-courses" : false,
         "udemy-courses" : false,
-        "google-drive-links" : true,
-        "mediafire-links" : true,
-        "anonfiles-links" : true,
-        "pastebin-links" : true,
+        "google-drive-links" : false,
+        "mediafire-links" : false,
+        "anonfiles-links" : false,
+        "pastebin-links" : false,
         "images" : false,
         "audios" : false,
-        "code-files" : true,
+        "code-files" : false,
         "pdf" : false,
-        "custom-extension" : ".txt",
+        "custom-extension" : "",
         "files" : false,
         "videos" : false,
-        "url-shorters" : true,
+        "url-shorters" : false,
         "spam" : false
     },
     "save" : {
-        "enabled" : true,
-        "place" : -1001238690202
+        "enabled" : false,
+        "place" : "me"
     },
-    "download" : true,
-    "dont-scrape-from" : ["-1001238690202"]
+    "download" : false,
+    "dont-scrape-from" : []
 }
