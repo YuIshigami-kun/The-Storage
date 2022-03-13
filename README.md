@@ -96,9 +96,7 @@ To enable most of the options **you just have to change the false to true**.
 In future updates i´ll add more options like an only-scrappe-from extra
 
 ## Contact
-[Telegram](http://t.me/darKLC_87)
-
-[Email](mailto:yuIshigamiop@godscracking.xyz)
+[Telegram](http://t.me/Yulshigami)
 
 ## Donations
 BTC --> bc1q4g6h98z72dr65qnyuw44979jelk077mmc3xucl
